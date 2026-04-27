@@ -66,3 +66,15 @@ public:
 float hitungKelilingBelahKetupat(BelahKetupat b) {
     return 4 * b.sisi;
 }
+int main() {
+    LayangLayang l;
+    BelahKetupat b;
+
+    l.input();
+    l.output();
+
+    b.input();
+    b.output();
+
+    return 0;
+}
