@@ -51,3 +51,12 @@ public:
         cout << "Masukkan sisi: ";
         cin >> sisi;
     }
+      float luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    void output() {
+        cout << "Luas Belah Ketupat: " << luas() << endl;
+        cout << "Keliling Belah Ketupat: " 
+             << hitungKelilingBelahKetupat(*this) << endl;
+    }
