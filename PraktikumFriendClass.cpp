@@ -21,3 +21,15 @@ private:
         cout << "Masukkan sisi 2: ";
         cin >> s2;
     }
+     float luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    float keliling() {
+        return 2 * (s1 + s2);
+    }
+
+    void output() {
+        cout << "Luas Layang-Layang: " << luas() << endl;
+        cout << "Keliling Layang-Layang: " << keliling() << endl;
+    }
