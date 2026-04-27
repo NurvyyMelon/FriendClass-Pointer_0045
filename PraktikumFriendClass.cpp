@@ -60,3 +60,9 @@ public:
         cout << "Keliling Belah Ketupat: " 
              << hitungKelilingBelahKetupat(*this) << endl;
     }
+    friend float hitungKelilingBelahKetupat(BelahKetupat b);
+};
+
+float hitungKelilingBelahKetupat(BelahKetupat b) {
+    return 4 * b.sisi;
+}
